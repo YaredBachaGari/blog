@@ -10,8 +10,8 @@ function Hero() {
       </div>
       <h1>Hi🖐️ i am Yared Gari</h1>
       <p>
-        I blog and share my learnings and thought about full stack web
-        development on this page!!
+        I share my learnings and thought about full stack web
+        development on this page. Let us drill interesting topics together
       </p>
     </section>
   );

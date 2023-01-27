@@ -1,8 +1,9 @@
 import React from 'react'
+import PostContent from '../../components/Post/PostContent'
 
 function PostDetailPage() {
   return (
-    <div>PostDetailPage</div>
+    <PostContent/>
   )
 }
 
