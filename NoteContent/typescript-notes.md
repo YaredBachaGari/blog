@@ -1,5 +1,5 @@
 ---
-title: 'getting started with typescript'
+title: 'Typescript Note'
 date: '2023-10-25'
 image: 'blogcover3.avif'
 excerpt: 'this long text is excerpt....'

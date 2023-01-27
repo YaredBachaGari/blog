@@ -1,5 +1,5 @@
 ---
-title: 'getting started with react'
+title: 'React Js Note'
 date: '2023-10-20'
 image: 'blogcover2.avif'
 excerpt: 'this long text is excerpt....'

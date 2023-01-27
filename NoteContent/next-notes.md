@@ -1,5 +1,5 @@
 ---
-title: 'getting started with next'
+title: 'Next Js Note'
 date: '2023-10-15'
 image: 'blogcover.avif'
 excerpt: 'this long text is excerpt....'
