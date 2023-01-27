@@ -1,8 +1,10 @@
 import React, { Fragment } from "react";
 import Hero from "../components/Home/Hero";
 import FeaturedPost from "../components/Home/FeaturedPost";
+import { getFeaturedNotes } from "../Utils/utility-fn";
 
-function Home() {
+function Home(props) {
+  const {featuredNoted} = props
   const data = [
     {
       title: "learn react",
@@ -30,9 +32,20 @@ function Home() {
   return (
     <Fragment>
       <Hero />
-      <FeaturedPost posts={data} />
+      <FeaturedPost posts={featuredNoted} />
     </Fragment>
   );
+}
+
+export async function getStaticProps(){
+  const featureddata = getFeaturedNotes()
+  console.log(featureddata)
+  return{
+    props:{
+      featuredNoted:featureddata
+    },
+    revalidate:300
+  }
 }
 
 export default Home;
